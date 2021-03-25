@@ -1,0 +1,357 @@
+html{
+	scroll-behavior: smooth;
+}
+/*-----------navbar---------*/
+.navbar-brand{
+	font-family: pacifico;
+	font-size: 35px !important;
+}
+.bg-dark{
+	background-color: #1E1E1E !important;
+}
+.nav-link{
+	font-weight: 700 !important;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin:5px;
+}
+.active-link{
+	color: #9BE86F !important;
+}
+.vlink{
+	color: #fff !important;
+}
+.vlink:hover{
+	color: #9BE86F !important;
+	transition: 0.5s !important;
+}
+.last-nav-link{
+	margin-right: 60px;
+}
+/*---------half-bg-----*/
+.half-bg{
+	padding: 12.5% 0%;
+	background: url('half-bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+.restauranth1{
+	color: #fff;
+	text-align: center;
+	padding-top: 0%;
+	font-family: playball;
+	font-size: 120px;
+}
+.best{
+	text-align: center;
+	color: #fff;
+	font-size: 34px;
+	font-weight: 400;
+}
+/*----about--us*/
+.about-container{
+	margin-top: 80px;
+}
+.about-column{
+	justify-content: center;
+	text-align: center;
+}
+.abouttitle{
+	border: 1px solid #2d2d2d;
+	color: #2d2d2d;
+	font-size: 30px;
+	font-weight: 900;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.first-icon{
+	width: 40px;
+	padding-top: 35px;
+}
+.aboutdescription{
+	color: #1e1e1e;
+	font-size: 20px;
+	line-height: 35px;
+	font-weight: 500;
+	padding-top: 10px;
+	text-align: left;
+}
+/*------affordable---pricing----*/
+.affordable-pricing{
+	margin-top: 5%;
+	background: url(pricing.jpg) fixed center;
+	background-size: cover;
+	padding-top: 18%;
+	padding-bottom: 18%;
+	text-align: center;
+}
+.affordable-pricingh1{
+	color: #fff;
+	font-size: 4.5em;
+	font-weight: 900;
+	letter-spacing: 5px;
+}
+/*--------Dishes----*/
+.dishcontainer1{
+	margin-top: 5%;
+	text-align: left;
+}
+.dishcontainer2{
+	margin-top: 5%;
+	text-align: left;
+}
+.dishcontainer3{
+	margin-top: 5%;
+	text-align: left;
+}
+.dishcontainer4{
+	margin-top: 5%;
+	text-align: left;
+}
+.dishesh3{
+	text-align: center;
+	margin-top: 80px;
+}
+.dishesspan{
+	font-weight: 700;
+	border: 1px solid #2d2d2d;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.dishprice1{
+	color: #fff;
+	background-color: red;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 2.5%;
+	font-weight: 700;
+	text-align: center;
+}
+.dishprice2{
+	color: #fff;
+	background-color: red;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 2.5%;
+	font-weight: 700;
+	text-align: center;
+}
+.dishprice3{
+	color: #fff;
+	background-color: red;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 2.5%;
+	font-weight: 700;
+	text-align: center;
+}
+.dishprice4{
+	color: #fff;
+	background-color: red;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 2.5%;
+	font-weight: 700;
+	text-align: center;
+}
+.food-icon{
+	max-width: 100%;
+    height: auto;
+}
+/*-------great--place---*/
+.great-place{
+	margin-top: 5%;
+	background: url(great-place.jpg) fixed center;
+	background-size: cover;
+	padding-top: 19%;
+	padding-bottom: 19%;
+	text-align: center;
+	color: #fff;
+	font-weight: 700;
+	font-size: 5em;
+}
+/*------our--beer----*/
+.beer-image{
+	max-width: 100%;
+	height: auto;
+}
+.beer-icon{
+	width: 30px;
+	padding-top: 30px;
+}
+.beerdescription{
+	color: #1e1e1e;
+	font-size: 20px;
+	line-height: 35px;
+	font-weight: 500;
+	padding-top: 20px;
+	text-align: left;
+}
+/*----breakfast------*/
+.breakfast-image{
+	margin-top: 5%;
+	background: url(breakfast.jpg) fixed center;
+	background-size: cover;
+	padding-top: 18%;
+	padding-bottom: 18%;
+	text-align: center;
+	color: #fff;
+	font-weight: 700;
+	font-size: 5em;
+}
+/*-----our--bread-----*/
+.bread-icon{
+	max-width: 35px;
+	padding-top: 30px;
+}
+/*---------featured-------*/
+.featured-image{
+	margin-top: 5%;
+	background: url(featured.jpg) fixed center;
+	background-size: cover;
+	padding-top: 18%;
+	padding-bottom: 18%;
+	text-align: center;
+	color: #fff;
+	font-weight: 700;
+	font-size: 5em;
+}
+/*================
+have-a-look=====*/
+/*-----reserve-----*/
+.seat{
+	margin-top: 5%;
+	background: url(reservation-seat.jpg) fixed center;
+	background-size: cover;
+	padding-top: 18%;
+	padding-bottom: 18%;
+	text-align: center;
+	color: #fff;
+	font-weight: 700;
+	font-size: 5em;
+}
+.formcontainer{
+	text-align: center;
+}
+.formcontainer2{
+	text-align: center;
+}
+.firstname{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	padding-right: 188px;
+	font-weight: 400;
+	font-size: 14px;
+	border:1px solid #bcbcbc;
+}
+.lastname{
+	margin-top: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	padding-right: 188px;
+	font-weight: 400;
+	font-size: 14px;
+	border:1px solid #bcbcbc;
+}
+.state{
+	margin-top: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	padding-right: 188px;
+	font-weight: 400;
+	font-size: 14px;
+	border:1px solid #bcbcbc;
+}
+.reservationdate{
+	margin-top: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	padding-right: 188px;
+	font-weight: 400;
+	font-size: 14px;
+	border:1px solid #bcbcbc;
+}
+.reservebtn{
+	color: #9BE86F !important;
+	margin-right: 186px;
+	margin-top: 20px;
+	background-color: black !important;
+	font-weight: 400 !important;
+	text-align: center;
+	padding-left: 55px !important;
+	padding-right: 55px !important; 
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+.hourscontainer{
+	text-align: center;
+}
+.hoursh4{
+	font-weight: 600;
+}
+.opentime{
+	font-weight: 400;
+	text-align: left;
+}
+.openhr{
+	border: 1px solid;
+}
+/*------footer------*/
+.footer {
+  margin-top: 4px;
+  background: #1E1E1E;
+  padding: 5px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.copyright {
+  text-align: center;
+}
+.credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #ccc;
+}
+.designedby{
+	color: #9BE86F;
+}
+
+
+@media(max-width: 1028px) {
+	.about-section{
+		text-align: center;
+	}
+	.aboutdescription{
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
